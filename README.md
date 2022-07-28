@@ -2,11 +2,12 @@
 
 # Project Name
 
-> Description the project.
+> In this project we will implement a class with some methods, but we will do it by doing test-driven development (TDD).
 
 ## Built With
 
 - Ruby
+- Rspec
 
 ### Getting Started
 
@@ -25,15 +26,21 @@ git clone https://github.com/rbanos-mv/ruby_tdd.git
 cd ruby_tdd
 ```
 
-### Run
+### Run tests
 
 Type these commands into the terminal:
 
 ```
-ruby ruby_tdd.rb
+rspec
 ```
 
 ## Authors
+
+👤 **Hector Torres**
+
+- GitHub: [@HectorTorres](https://github.com/HectorTorresE)
+- Twitter: [@HectorT](https://twitter.com/HectorT00406915)
+- LinkedIn: [@Hectorjte](https://www.linkedin.com/in/hectorjte/)
 
 👤 **Roberto A. Baños Alvarez**
 
