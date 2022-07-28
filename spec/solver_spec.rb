@@ -38,4 +38,22 @@ RSpec.describe Solver do
       expect(result).to be 120
     end
   end
+
+  context 'When testing the method reverse' do
+    it "should return 'edcba' when reverse('abcde')" do
+      solver = Solver.new
+
+      result = solver.reverse('abcde')
+
+      expect(result).to eq 'edcba'
+    end
+
+    it "should return '54321' when reverse(12345)" do
+      solver = Solver.new
+
+      result = solver.reverse(12_345)
+
+      expect(result).to eq '54321'
+    end
+  end
 end
