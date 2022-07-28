@@ -13,4 +13,12 @@ class Solver
   def reverse(string)
     string.to_s.reverse
   end
+
+  def fizzbuzz(number)
+    result = ''
+    result << 'fizz' if (number % 3).zero?
+    result << 'buzz' if (number % 5).zero?
+    result = number.to_s if result.empty?
+    result
+  end
 end
