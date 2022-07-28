@@ -9,4 +9,8 @@ class Solver
 
     number * factorial(number - 1)
   end
+
+  def reverse(string)
+    string.to_s.reverse
+  end
 end
