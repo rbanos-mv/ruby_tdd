@@ -56,4 +56,38 @@ RSpec.describe Solver do
       expect(result).to eq '54321'
     end
   end
+
+  context 'When testing the method fizzbuzz' do
+    it "should return '1' when fizzbuzz(1)" do
+      solver = Solver.new
+
+      result = solver.fizzbuzz(1)
+
+      expect(result).to eq '1'
+    end
+
+    it "should return 'fizz' when fizzbuzz(3)" do
+      solver = Solver.new
+
+      result = solver.fizzbuzz(3)
+
+      expect(result).to eq 'fizz'
+    end
+
+    it "should return 'buzz' when fizzbuzz(5)" do
+      solver = Solver.new
+
+      result = solver.fizzbuzz(5)
+
+      expect(result).to eq 'buzz'
+    end
+
+    it "should return 'fizz' when fizzbuzz(15)" do
+      solver = Solver.new
+
+      result = solver.fizzbuzz(15)
+
+      expect(result).to eq 'fizzbuzz'
+    end
+  end
 end
